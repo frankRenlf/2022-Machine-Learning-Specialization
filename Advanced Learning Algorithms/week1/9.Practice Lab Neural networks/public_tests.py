@@ -1,6 +1,6 @@
 # UNIT TESTS
-from tensorflow.keras.activations import sigmoid
-from tensorflow.keras.layers import Dense
+from keras.activations import sigmoid
+from keras.layers import Dense
 
 import numpy as np
 
