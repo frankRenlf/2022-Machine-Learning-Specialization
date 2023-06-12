@@ -12,7 +12,7 @@ def normalizeRatings(Y, R):
     """
     Ymean = (np.sum(Y*R,axis=1)/(np.sum(R, axis=1)+1e-12)).reshape(-1,1)
     Ynorm = Y - np.multiply(Ymean, R) 
-    return(Ynorm, Ymean)
+    return Ynorm, Ymean
 
 def load_precalc_params_small():
 
