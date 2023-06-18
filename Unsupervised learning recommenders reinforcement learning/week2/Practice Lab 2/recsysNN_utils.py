@@ -187,7 +187,7 @@ def predict_uservec(user_vecs, item_vecs, model, u_s, i_s, scaler, ScalerUser, S
     sorted_ypu = y_pu[sorted_index]
     sorted_items = item_vecs[sorted_index]
     sorted_user = user_vecs[sorted_index]
-    return (sorted_index, sorted_ypu, sorted_items, sorted_user)
+    return sorted_index, sorted_ypu, sorted_items, sorted_user
 
 
 # def print_pred_debug(y_p, y, user, item, maxcount=10, onlyrating=False,  printfull=False):
